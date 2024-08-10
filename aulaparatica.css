@@ -1,0 +1,91 @@
+header{
+    padding: 15px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+header img {
+    width: 80px;
+}
+
+    .section01 {
+        background-image: url(IMAGENS/snake-8928741_640.jpg);
+        padding: 150px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+    }
+
+
+
+    .section01 button {
+        width: 150px;
+        height: 40px;
+        background-color: rgba(255, 255, 255, 0.199);
+        border-radius: 10px;
+    }
+
+
+
+
+    .section02 {
+        background-color: aqua;
+        background-color: aqua;
+        padding: 250px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .section02 img {
+        width: 100px;
+        height: auto;
+    }
+
+    .section02 h2 {
+        color: aliceblue;
+        font-size: 20px;
+    }
+
+    .section02 p {
+        color: antiquewhite;
+        font-size: 18px;
+        font-weight: 900;
+        margin: 15px;
+    }
+
+
+    .section03 {
+        background-color: cadetblue;
+        padding: 250px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .section03 h2 {
+        color: aliceblue;
+        font-size: 25px;
+    }
+
+    .section03 p {
+        color: antiquewhite;
+        font-size: 18px;
+        font-weight: 900;
+        margin: 15px;
+    }
+
+
+
+
+
+
+
+
+    footer {
+        padding: 15px;
+        background-color: aquamarine;
+    }
