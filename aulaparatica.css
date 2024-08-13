@@ -1,33 +1,114 @@
+*{
+    /* *= USADO PARA INFORMAR QUE EXISTEM ITENS QUE IRÃO RECAIR SOBRE TODO HTML */
+    
+    margin: 0; 
+    /* margin */
+
+    padding: 0;
+    /* padding= ZERANDO O PREENCHIMENTO  */
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* HABILITANDO UMA FONTE PADRAO PARA TODA A PAGINA  */
+
+    list-style: none;
+    /*  */
+
+}
+
 header{
     padding: 15px;
+    /* padding= COLOCANDO UM TAMANHO(PREECHIMENTO) NO header */
+
     background-color: aquamarine;
+    /* backgroumd-color= HABILITANDO UMA COR DE FUNDO */
+
     display: flex;
+    /* display= TORNANDO NOSSO header FLEX-DEIXANDO OS ITENS LADO A LADO */
+
     justify-content: space-evenly;
+    /* justify-content= JUSTIFICATIVA DO CONTEUDO- AAQUI PODEMOS AJUSTAR COMFORME NOSSA NECESSIDADE */
+
+    align-items: center;
+    /* align-items= ALINHYAMENTO NA VERTICAL, DEIXANDO HABILITADA NO CENTO */
 
 }
 
+/* AQUI CHAMAMOS NOSSA LOGO(img) PARA ESTILIZAÇÃO */
 header img {
     width: 80px;
+    /* width= LARGURA DA IMAGEM */
+    height: auto;
+    /* height= ALTURA DA IMAGEM */
 }
 
+/* AQUI CHAMAMOS NOSSA LISTA ORDENADA PARA ESTILIZAÇÃO */
+header nav ul {
+    display: flex;
+    /* display= TORNAMOS NOSSAS LISTAS NÃO ORDENADA EM (flex), DEIXANDO OS ITENS PERTENCENTES A ELA, LADO A LADO */
+
+}
+
+/* AQUI CHAMAMOS NOSSA LISTA(li) PARA ESTILIZAÇÃO */
+header nav ul li {
+    list-style: none;
+    /* list-style= ESTILO DE LISTA DESABILITADO(none) */
+
+    margin-right: 10px;
+    /* margin-right= ESPAÇAMENTO ENTRE AS (li) */
+
+}
+
+/* AQUI CHAMAMOS NOSSA ANCORA(a) PARA ESTILIZAÇÃO */
+header nav ul li a {
+    text-decoration: none;
+    /* text-decoration= DECOREÇÃO DO TEXTO (sublinhado) DESABILITADO(none) */
+
+    color: black;
+    /* color= COR DA LETRA */
+
+}
+
+/* primeira sessão para estilizaçao */
     .section01 {
-        background-image: url(IMAGENS/snake-8928741_640.jpg);
-        padding: 150px;
+        background-image: url(IMAGENS/austria-6934186_1280.jpg);
+        /* backgroud-image= USADA PARA HABILITAD UMA IMAGEM NO FUNDO DA SESSÃO */
+
+        padding: 250px;
+        /* padding= PREENCHIMENTO/TAMANHO SESSÃO */
+
         background-repeat: no-repeat;
+        /* backgroud-repeat= PARA A IMAGEM NÃO SE REPETIR DENTRO DA SEÇÃO(no-repeat) */
+
         background-size: cover;
+        /* background-size= UTILIZADA PARA QUE A IMAGEM PREENCHA TODO ESPAÇO DISPONIVEL */
+
         background-position: center;
+        /* background-position=  */
+
         display: flex;
+        /* displey= TORNANDO A SESSÃO FLEX */
+
         justify-content: center;
-        align-items: center;   
+        /* justify-content= */
+
+        align-items: center; 
+          /* align-items=  */
     }
 
 
-
+/*  CHAMANDO O BOTÃO DA PRIMEIRA SEÇÃO PARA ESTILIZAÇÃO */
     .section01 button {
         width: 150px;
+        /* width= LARGURA DO BOTÃO */
+
         height: 40px;
+        /* height= ALTURA DO BOTÃO */
+
         background-color: rgba(255, 255, 255, 0.199);
+        /* backgroud-color= COR DE FUNDO */
+
         border-radius: 10px;
+        /* border-radius= ARREDONDAMENTO DO BOTÃO */
     }
 
 
@@ -60,7 +141,8 @@ header img {
 
 
     .section03 {
-        background-color: cadetblue;
+        background-image: url(IMAGENS/sea-turtle-8890529_1280.jpg);
+        background-attachment: fixed;
         padding: 250px;
         display: flex;
         justify-content: space-evenly;
@@ -78,14 +160,28 @@ header img {
         margin: 15px;
     }
 
-
-
-
-
-
-
-
     footer {
-        padding: 15px;
-        background-color: aquamarine;
+        padding: 20px;
+        background-color: darkolivegreen;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
     }
+
+    footer ul {
+        display: flex;
+
+    }
+
+    footer ul li {
+        list-style: none;
+        margin-right: 15px;
+    }
+
+    footer ul li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    
